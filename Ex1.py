@@ -21,7 +21,4 @@ def generate(n, k):
         if np.array_equal(permutation, stop):
             break
 
-generate(5, 3) 
-
-
-
+generate(5, 3)
