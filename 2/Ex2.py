@@ -7,7 +7,6 @@ def rank(subset, n):
     for x in range(n):
         if x+1 in subset:
             result[x] = 1
-    print result
     rank = 0  
     for x in range(n-1,-1,-1):
         power = n-(x+1)
