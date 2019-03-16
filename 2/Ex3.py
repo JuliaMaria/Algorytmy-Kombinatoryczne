@@ -12,7 +12,6 @@ def unrank(r, n):
             result.append(idx+1)
     print result
     
-
 unrank(1, 3)
 unrank(2, 3)
 unrank(3, 3)
